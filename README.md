@@ -2,7 +2,7 @@
 
 ## Overview
 
-In this project, unsupervised machine learning is used to group cryptocurrencies and help our client, Accountability Accounting, create a new cryptocurrency investment portfolio for their customers. We preprocess the data, reduce the dimensions using PCA, cluster the cryptocurrencies using K-means, and visualize the results.
+In this project, unsupervised machine learning is used to group cryptocurrencies and help our client, Accountability Accounting, create a new cryptocurrency investment portfolio for their customers. We have to preprocess the data, reduce the dimensions using PCA, cluster the cryptocurrencies using K-means, and finally visualize the results.
 
 ## Results
 
@@ -54,7 +54,7 @@ We use the K-means algorithm to cluster the cryptocurrencies using the PCA data,
 
 ## Part 4: Visualizing Cryptocurrencies Results
 
-### We visualize the results in the following ways:
+### The results are visualized in the following ways:
 
 - Plot the clusters using a 3D scatter plot, and each data point shows the CoinName and Algorithm on hover
 - Create a table with tradable cryptocurrencies using the hvplot.table() function
@@ -69,4 +69,4 @@ We use the K-means algorithm to cluster the cryptocurrencies using the PCA data,
 
 ## Summary
 
-Using unsupervised machine learning, we were able to group cryptocurrencies and provide our client with a new cryptocurrency investment portfolio for their customers. We preprocessed the data, reduced the dimensions using PCA, clustered the cryptocurrencies using K-means, and visualized the results. By doing so, we were able to provide insights on the cryptocurrencies and their similarities and differences. In the future, it may be beneficial to use other clustering algorithms or to incorporate more features and see if it improves the accuracy of the classification system any further.
+Using unsupervised machine learning, we were able to group cryptocurrencies and provide our client with a new cryptocurrency investment portfolio for their customers. We preprocessed the data, reduced the dimensions using PCA, clustered the cryptocurrencies using K-means, and visualized the results. By doing so, we were able to provide insights on the cryptocurrencies and their similarities and differences. In the future, it may be beneficial to use other clustering algorithms or incorporate more features and see if it improves the accuracy of the classification system any further.
