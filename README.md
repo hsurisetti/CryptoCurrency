@@ -19,9 +19,26 @@ The following preprocessing steps on the crypto_df DataFrame were performed :
 - Use the get_dummies() method to create variables for the text features, which are then stored in a new DataFrame, X
 Standardize the features from the X DataFrame using the StandardScaler fit_transform() function
 
+The Resultant outputs :
+
+
+<img src="https://github.com/hsurisetti/CryptoCurrency/blob/main/screenshots/1.png" width=350/><img src="https://github.com/hsurisetti/CryptoCurrency/blob/main/screenshots/2.png" width=350/>
+<img src="https://github.com/hsurisetti/CryptoCurrency/blob/main/screenshots/3.png" width=400/>
+<img src="https://github.com/hsurisetti/CryptoCurrency/blob/main/screenshots/4.png" width=400/>
+<img src="https://github.com/hsurisetti/CryptoCurrency/blob/main/screenshots/5.png" width=400/>
+<img src="https://github.com/hsurisetti/CryptoCurrency/blob/main/screenshots/6.png" width=400/>
+<img src="https://github.com/hsurisetti/CryptoCurrency/blob/main/screenshots/7.png" width=400/>
+<img src="https://github.com/hsurisetti/CryptoCurrency/blob/main/screenshots/8.png" width=400/>
+<img src="https://github.com/hsurisetti/CryptoCurrency/blob/main/screenshots/9.png" width=400/>
+
 ## Part 2: Reducing Data Dimensions Using PCA
 
 We use the PCA algorithm to reduce the dimensions of the X DataFrame down to three principal components. The resulting pcs_df DataFrame has the following three columns, PC 1, PC 2, and PC 3, and has the index from the crypto_df DataFrame.
+
+The resultant outputs:
+
+
+<img src="https://github.com/hsurisetti/CryptoCurrency/blob/main/screenshots/10.png" width=400/><img src="https://github.com/hsurisetti/CryptoCurrency/blob/main/screenshots/11.png" width=400/>
 
 ## Part 3: Clustering Cryptocurrencies Using K-means
 
@@ -30,6 +47,10 @@ We use the K-means algorithm to cluster the cryptocurrencies using the PCA data,
 - Create an elbow curve using hvPlot to find the best value for K
 - Make predictions on the K clusters of the cryptocurrencies’ data
 - Create a new DataFrame with the same index as the crypto_df DataFrame and has the following columns: Algorithm, ProofType, TotalCoinsMined, TotalCoinSupply, PC 1, PC 2, PC 3, CoinName, and Class
+
+
+<img src="https://github.com/hsurisetti/CryptoCurrency/blob/main/screenshots/12.png" width=400/><img src="https://github.com/hsurisetti/CryptoCurrency/blob/main/screenshots/13.png" width=400/>
+<img src="https://github.com/hsurisetti/CryptoCurrency/blob/main/screenshots/14.png" width=400/>
 
 ## Part 4: Visualizing Cryptocurrencies Results
 
@@ -40,6 +61,11 @@ We use the K-means algorithm to cluster the cryptocurrencies using the PCA data,
 - Print the total number of tradable cryptocurrencies
 - Create a DataFrame that contains the clustered_df DataFrame index, the scaled data, and the CoinName and Class columns
 - Create a hvplot scatter plot where the X-axis is "TotalCoinsMined", the Y-axis is "TotalCoinSupply", the data is ordered by "Class", and it shows the CoinName when you hover over the data point
+
+
+<img src="https://github.com/hsurisetti/CryptoCurrency/blob/main/screenshots/15.png" width=400/><img src="https://github.com/hsurisetti/CryptoCurrency/blob/main/screenshots/16.png" width=400/>
+<img src="https://github.com/hsurisetti/CryptoCurrency/blob/main/screenshots/17.png" width=400/>
+<img src="https://github.com/hsurisetti/CryptoCurrency/blob/main/screenshots/18.png" width=400/>
 
 ## Summary
 
